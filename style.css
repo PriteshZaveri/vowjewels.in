@@ -1,0 +1,36 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0px auto;
+  padding: 0px 15px;
+  height: 100vh;
+}
+
+.img-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.img-wrap img {
+  width: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .img-wrap img {
+    width: 100%;
+  }
+}
